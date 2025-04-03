@@ -1,0 +1,3 @@
+38672-2,2025-04-03 16:47:46,Depósito,2000.0
+38672-2,2025-04-03 16:48:07,Transferência Enviada para Naiara Burn,600.0
+90134-7,2025-04-03 16:48:07,Transferência Recebida de Rafael Valentinne,600.0

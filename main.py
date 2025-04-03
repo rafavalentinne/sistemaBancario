@@ -1,8 +1,8 @@
 import random
 from cliente import Cliente
 from conta import ContaCorrente, ContaPoupanca, ContaSalario, gerar_numero_conta
-from database import conectar, criar_tabelas, salvar_transacao, salvar_cliente, salvar_conta, atualizar_cliente, \
-    deletar_cliente, carregar_dados, atualizar_saldo_conta
+from database import salvar_cliente, atualizar_cliente, deletar_cliente, salvar_conta, atualizar_saldo_conta, salvar_transacao, carregar_dados
+
 
 global clientes, contas
 clientes = {}
@@ -187,7 +187,6 @@ Escolha uma operação:
 
 
 if __name__ == '__main__':
-    criar_tabelas()
     clientes, contas = carregar_dados()
 
     while True:
